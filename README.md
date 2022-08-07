@@ -19,5 +19,5 @@ but this Server to client is simply meant to load static Files
 from the front and allow the back to update to the page. 
 
 Issues: 
-Without the use of middle ware, EJS modules cannot be used in my frontend lines.
-Therefore, I have to use something like Commonjs, nestjs or async https methods
+Without the use of middle ware, EJS modules cannot be accessed by the server.
+Therefore, use something like Commonjs, nestjs or async https methods
